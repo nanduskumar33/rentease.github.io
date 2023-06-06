@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rentease.github.io/static/css/main.d104de64.css",
+    "main.js": "/rentease.github.io/static/js/main.45a8cef5.js",
+    "static/js/787.28c21809.chunk.js": "/rentease.github.io/static/js/787.28c21809.chunk.js",
+    "index.html": "/rentease.github.io/index.html",
+    "main.d104de64.css.map": "/rentease.github.io/static/css/main.d104de64.css.map",
+    "main.45a8cef5.js.map": "/rentease.github.io/static/js/main.45a8cef5.js.map",
+    "787.28c21809.chunk.js.map": "/rentease.github.io/static/js/787.28c21809.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d104de64.css",
+    "static/js/main.45a8cef5.js"
+  ]
+}
