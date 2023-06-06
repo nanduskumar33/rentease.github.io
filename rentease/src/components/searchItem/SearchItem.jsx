@@ -1,6 +1,11 @@
+import House from "../../pages/house/House"
 import "./searchItem.css"
 
 const SearchItem = () => {
+  const btnClick = ()=>{
+    window.open("/house/:n")
+  }
+
   return (
     <div className="searchItem">
         <img src="https://is1-2.housingcdn.com/01c16c28/a069c66adce2976049804db49b039b26/v0/fs/2_bhk_independent_house-for-rent-pappanamcode-Thiruvananthapuram-building_view.jpg" alt="" className="siImg" />
@@ -15,7 +20,7 @@ const SearchItem = () => {
         <div className="siDetailTexts">
             <span className="siPrice">₹15,000</span>
             <span className="siInterval"> per month</span>
-            <button className="siCheck">See Availability</button>
+            <button className="siCheck" onClick={()=>btnClick()}>See Availability</button>
         </div>
     </div>
     </div>

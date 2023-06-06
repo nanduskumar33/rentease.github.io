@@ -9,11 +9,15 @@ const Featured = () => {
                 <h1>Trivandrum</h1>
                 <h3>345 Properties</h3>
             </div>
+        </div>
+        <div className="featuredItem">
             <img src="https://media.istockphoto.com/id/875647666/photo/chinese-fishing-nets-at-sunset-fort-kochin-india.jpg?b=1&s=612x612&w=0&k=20&c=Mzva4ZxmDD-DFC1Iv7AmMNLe_DLEEd9LcEas3BAkaP4=" alt="" className="featuredImg"></img>
             <div className="featureTitles">
                 <h1>Ernakulam</h1>
                 <h3>234 Properties</h3>
             </div>
+        </div>
+        <div className="featuredItem">
             <img src="https://images.unsplash.com/photo-1579955267568-d533e197ef1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a296aGlrb2RlfGVufDB8fDB8fHww&w=1000&q=80" alt="" className="featuredImg"></img>
             <div className="featureTitles">
                 <h1>Kozhikode</h1>

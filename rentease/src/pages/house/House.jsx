@@ -23,7 +23,7 @@ const House = () => {
 
   const handleOpen = (i)=>{
     setSlideNum(i);
-    setOpen(true);
+    setOpen(true);       
   };
 
   const handleMove = (direction) =>{
@@ -45,7 +45,7 @@ const House = () => {
           <FontAwesomeIcon icon={faCircleXmark} className="close" onClick={()=>setOpen(false)}/>
           <FontAwesomeIcon icon={faArrowLeft} className="arrow" onClick={()=>handleMove("l")}/>
           <div className="sliderWrapper">
-              <img src={photos[slideNum]} alt="" className="sliderImg" />
+              <img src={photos[slideNum].src} alt="" className="sliderImg" />
           </div>
           <FontAwesomeIcon icon={faArrowRight} className="arrow" onClick={()=>handleMove("r")}/>
         </div>}
